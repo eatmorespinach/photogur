@@ -2,6 +2,15 @@ Photogur::Application.routes.draw do
   
   get 'pictures' => 'pictures#index'
 
+  get 'pictures/0' => 'pictures#picture0'
+
+  get 'pictures/1' => 'pictures#picture1'
+
+  get 'pictures/2' => 'pictures#picture2'
+
+  
+  #Drew: What does pictures/0 reference? I assume controller. If so, why a /?
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
